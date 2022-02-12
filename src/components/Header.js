@@ -24,7 +24,7 @@ function Header() {
                     </Navbar.Brand>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="nav-justified w-100 nav-fill">
-                            <Nav.Link href="/reactStore/">스토어</Nav.Link>
+                            <Nav.Link href="/reactStore/">Store</Nav.Link>
                             {isAuth ? (
                                 <>
                                     <Nav.Link onClick={signOut}>Logout</Nav.Link>
