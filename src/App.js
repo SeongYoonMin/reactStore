@@ -6,6 +6,7 @@ import RegisterPage from './pages/RegisterPage/RegisterPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AuthContextProvider from './context/AuthContext';
 import Header from './components/Header';
+import DetailProductPage from './pages/DetailProductPage/DetailProductPage';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/product/:productId" element={<DetailProductPage />} />
       </Routes>
     </AuthContextProvider>
   );
