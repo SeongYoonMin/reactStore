@@ -12,7 +12,6 @@ function App() {
 
   return (
     <AuthContextProvider>
-      <BrowserRouter basename="/reactStore">
         <Header />
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -20,7 +19,6 @@ function App() {
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/product/:productId" element={<DetailProductPage />} />
         </Routes>
-      </BrowserRouter>
     </AuthContextProvider>
   );
 }
