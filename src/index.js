@@ -15,7 +15,7 @@ clayful.install('request', require("clayful/plugins/request-axios")(axios));
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/reactStore'>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

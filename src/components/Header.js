@@ -19,23 +19,23 @@ function Header() {
             <div className="container">
                 <Navbar className="w-100" collapseOnSelect expend="lg" variant="dark">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="/reactStore/">
                         <img src={logo} alt="logo" />
                     </Navbar.Brand>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="nav-justified w-100 nav-fill">
-                            <Nav.Link href="/">스토어</Nav.Link>
+                            <Nav.Link href="/reactStore/">스토어</Nav.Link>
                             {isAuth ? (
                                 <>
                                     <Nav.Link onClick={signOut}>Logout</Nav.Link>
-                                    <Nav.Link href="/user/cart">
+                                    <Nav.Link href="/reactStore/user/cart">
                                         <img src={cart} alt="cart" />
                                     </Nav.Link>
                                 </>
                             ) : (
                                 <>
-                                    <Nav.Link href="/login">Login</Nav.Link>
-                                    <Nav.Link href="/user/cart">
+                                    <Nav.Link href="/reactStore/login">Login</Nav.Link>
+                                    <Nav.Link href="/reactStore/user/cart">
                                         <img src={cart} alt="cart" />
                                     </Nav.Link>
                                 </>
