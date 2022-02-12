@@ -55,7 +55,7 @@ function RegisterPage () {
                     <p></p>
                     <button type="submit">회원가입</button>
     
-                    <Link to="login" style={{ color: 'gray', textDecoration: "none"}}>이미 배륩's Store 아이디가 있다면? 지금 로그인.</Link>
+                    <Link to="/login" style={{ color: 'gray', textDecoration: "none"}}>이미 배륩's Store 아이디가 있다면? 지금 로그인.</Link>
                 </form>
                 
             </div>
