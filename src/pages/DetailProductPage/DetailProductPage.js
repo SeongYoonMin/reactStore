@@ -34,7 +34,7 @@ function DetailProductPage () {
                     </div>
                 </Col>
                 <Col md>
-                    <ProductInfos item={item}/>
+                    <ProductInfos items={item}/>
                 </Col>
             </Row>
 

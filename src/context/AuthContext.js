@@ -23,8 +23,6 @@ const AuthContextProvider = ({children}) => {
                 setIsAuth(false);
                 return;
             }
-
-            let headers = result.headers;
             let data = result.data;
             console.log(data.authenticated)
 
