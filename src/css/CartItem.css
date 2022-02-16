@@ -4,6 +4,9 @@
     width: 50px;
     text-align: end;
 }
+.buttons .delete-btn {
+    cursor: pointer;
+}
 
 .item {
     padding: 20px 30px;
